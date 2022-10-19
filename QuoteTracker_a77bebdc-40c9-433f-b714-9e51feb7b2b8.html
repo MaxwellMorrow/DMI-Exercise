@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>JavaScript Exercise</title>
+<script src="./script.js" defer></script>
+</head>
+<body>
+<h1>JavaScript Exercise</h1>
+<form>
+  <div>Enter one or more symbols to track: <input type="text" id="symbols" value="GOOG,AAPL"/></div>
+  <div>
+    <input type="button" id="updateNow" value="Update Now"/>
+    <input type="button" id="clearHistory" value="Clear History"/>
+  </div>
+  <input type="button" id="startStop" value="Start Automatic Updates"/>
+  <select id="refreshInterval">
+    <option value="5">Every 5 Seconds</option>
+    <option value="10">Every 10 Seconds</option>
+    <option value="15">Every 15 Seconds</option>
+    <option value="20">Every 20 Seconds</option>
+    <option value="25">Every 25 Seconds</option>
+  </select>
+</form>
+<div>Next update in 3 Seconds</div>
+<h2>Quote Information</h2>
+<div>This data is current as of 6/11/2013 10:00:10 AM</div>
+<div id="tablecontainer">
+
+  <table id="table"></table>
+</div>
+
+ 
+</table>
+</body>
+</html>
